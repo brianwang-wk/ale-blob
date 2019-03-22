@@ -1,17 +1,15 @@
 ---
-
-s3:
-  blob:
-    s3:
-      default:
-        bucket: bucket-prod
-        arn: arn-prod
-        accesskey: akey-prod
-        secretkey: skey-prod
-      customer1:
-        arn: arn1-prod
-      customer2:
-        bucket: bucket2-prod
-        arn: arn1-prod
-        accesskey: akey2-prod
-        secretkey: skey2-prod
+blob:
+  s3:
+    default:
+      bucket: bucket-prod
+      arn: arn-prod
+      accesskey: akey-prod
+      secretkey: skey-prod
+    customer1:
+      arn: arn1-prod
+    customer2:
+      bucket: bucket2-prod
+      arn: arn1-prod
+      accesskey: akey2-prod
+      secretkey: skey2-prod
