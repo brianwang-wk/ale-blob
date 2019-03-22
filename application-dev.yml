@@ -4,14 +4,14 @@ s3:
   blob:
     s3:
       default:
-        bucket: bucket
-        arn: arn1
-        accesskey: akey
-        secretkey: skey
+        bucket: bucket-dev
+        arn: arn-dev
+        accesskey: akey-dev
+        secretkey: skey-dev
       customer1:
-        arn: arn1
+        arn: arn1-dev
       customer2:
-        bucket: bucket2
-        arn: arn1
-        accesskey: akey2
-        secretkey: skey2
+        bucket: bucket2-dev
+        arn: arn1-dev
+        accesskey: akey2-dev
+        secretkey: skey2-dev
