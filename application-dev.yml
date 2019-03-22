@@ -1,2 +1,3 @@
-ale:
-  blob: blobDevPropertiesYml
+default:{bucket:defaultBucket,accessKey:akey,scretKey:skey,encryptionKey:arn}
+customer1:{encryptionKey:arn1, curtomerName:}
+customer2:{bucket:defaultBucket2,accessKey:akey2,scretKey:skey2,encryptionKey:arn2}
