@@ -1,5 +1,9 @@
 default:
-  s3:{bucket:defaultBucket,accessKey:akey,scretKey:skey,encryptionKey:arn}
+  s3:
+    bucket:defaultBucket
+    accessKey:akey
+    scretKey:skey
+    encryptionKey:arn
 
 customer1:
   s3:{encryptionKey:arn1}
