@@ -1,16 +1,16 @@
 default:
   s3:
-    bucket:defaultBucket
-    accessKey:akey
-    scretKey:skey
-    encryptionKey:arn
+    - bucket:defaultBucket
+    - accessKey:akey
+    - scretKey:skey
+    - encryptionKey:arn
 
 customer1:
   s3:
-    encryptionKey:arn1
+    - encryptionKey:arn1
 customer2:
   s3:
-    bucket:defaultBucket2
-    accessKey:akey2
-    scretKey:skey2
-    encryptionKey:arn2
+    - bucket:defaultBucket2
+    - accessKey:akey2
+    - scretKey:skey2
+    - encryptionKey:arn2
